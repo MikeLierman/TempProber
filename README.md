@@ -3,6 +3,7 @@
 A small command line application that pulls temps of various hardware components using Open Hardware Monitor library API, and outputs info along with proper exit code, for use on RMM dashboards. (Eg. Solarwinds RMM, formally MAX Focus, but should be compatible with many others.) Supports only Windows based workstations and servers. Read below for more info.  Screenshot of what this script returns when using Solarwinds: https://i.imgur.com/q7IECBI.jpg
 
 For update information and discussion, join the Invise Labs Discord: https://discord.gg/gK7NQ7h
+
 Follow me on Twitter: https://twitter.com/MikeLierman
 
 ### How it Works — READ FIRST BEFORE DOWNLOADING
