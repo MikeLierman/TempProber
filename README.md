@@ -1,5 +1,5 @@
 # TempProber
-A small little application that pulls temps using the Open Hardware Monitor library API and spits out info through console and returns proper exit code, for use on RMM dashboards. (Eg. Solarwinds RMM, formally MAX Focus.)
+A small little application that pulls temps using the Open Hardware Monitor library API and spits out info through console and returns proper exit code, for use on RMM dashboards. (Eg. Solarwinds RMM, formally MAX Focus, but should be compatible with many others.) Screenshot of what our script returns using the Solarwinds dashboard: https://i.imgur.com/q7IECBI.jpg
 
 For update information and discussion, join or Discord: https://discord.gg/gK7NQ7h
 
