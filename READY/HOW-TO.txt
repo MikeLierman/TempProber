@@ -1,0 +1,6 @@
+1. Upload TempProber.exe and ohm.dll to your server. 
+--> Don't worry about bandwidth, even if you have 2k RMM connected agents, that's only 2k downloads and then all workstations have the file. 
+2. Modify TempProberPayload.cmd with your direct URLs to the two files you uploaded. Double-check to make sure the URLs are correct and you didn't miss anything. Try visiting the urls in a web browser. 
+3. Make sure the script works locally. Create an empty folder and place the payload script inside it. NO OTHER FILES. Open Admin CMD and cd to that directory. Execute the script. It should dl the files, place them in the IT folder, and then output temps. If you get an output of temps, you're ready to upload to your dashbaord and test.
+--> If you did not get an output on temps in command prompt, you screwed up somehow. Start over.
+4. Deploy to several workstations as a test before deploying to all agents on your dashboard. We've tested this extensively, but don't take my word, test a small group before pushing to the masses.
