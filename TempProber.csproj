@@ -36,10 +36,8 @@
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="OHM, Version=0.8.0.2, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\openhardwaremonitor-master\Bin\Release\OHM.dll</HintPath>
-      <SpecificVersion>False</SpecificVersion>
-      <Private>True</Private>
+    <Reference Include="ohm">
+      <HintPath>OpenHardwareMonitorLib\Bin\Release\ohm.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -58,5 +56,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

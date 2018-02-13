@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("TempProber")]
-[assembly: AssemblyDescription("TempProber Command Line Tool")]
+[assembly: AssemblyTitle("TempProber (Alpha Build)")]
+[assembly: AssemblyDescription("TempProber command line tool requires Open Hardware Monitor Library.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Invise Labs")]
-[assembly: AssemblyProduct("TempProber")]
-[assembly: AssemblyCopyright("Copyright ©  2018 Invise Labs")]
+[assembly: AssemblyProduct("TempProber (Alpha Build)")]
+[assembly: AssemblyCopyright("Copyright © 2018 Invise Labs")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
