@@ -4,7 +4,7 @@ A small command line application that pulls temps of various hardware components
 
 For update information and discussion, join the Invise Labs Discord: https://discord.gg/gK7NQ7h
 
-### How it Works READ FIRST BEFORE DOWNLOADING
+### How it Works — READ FIRST BEFORE DOWNLOADING
 Most RMM solutions only allow you to upload scripts, not .exe files. The pre-made Windows based scripts for monitoring and logging hardware temperatures have never worked for me. Not once. This is a solution that works, always, without fail. It's pretty dang cool to be able to see HW temps of the CPU, GPU, and HDD on each RMM connected machine, right from your dashboard. This info is even viewable using the RMM mobile app.
 
 GETTING STARTED
