@@ -15,6 +15,9 @@ GETTING STARTED
 5. TempProber.exe will check for temp sensors on each major hardware component and output the results. After which it returns an exit code used by your RMM dashboard to determine PASS or FAIL on the "check." If you've done everything correctly, in command prompt you will see temperatures of each component the script detected. If you do not see this, you messed up, go back to step 1.
 6. After verifying that you understand how the script functions, go ahead and upload JUST THE BATCH FILE to your RMM dashboard script manager. Deploy it to several machines as a test before deploying to every connected agent.
 
+### Download
+https://github.com/MikeLierman/TempProber/releases
+
 ### Important Notes
 * High temp alerts are set to 190F and above, this will trigger the check to fail using exit code -3.
 * Checks fail through exit codes that are coded into TempProber.exe. However, if a temp sensor is not functioning, or TempProber simply doesn't work (rare scenario), the check will not fail. In the event that the script encounters an error, it will output the details so that you can recify the problem.
