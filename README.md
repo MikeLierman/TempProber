@@ -10,13 +10,14 @@ Most RMM solutions only allow you to upload scripts, not full .exe files. And th
 1. Download the READY folder. Inside you will see 3 files. TempProber.exe, ohm.dll, and a batch file. 
 2. Upload TempProber.exe and ohm.dll to your web server. Services like DB or Mega will not work because you do not have direct DL access.
 3. Edit the batch file and point the URL to yours.
-4. Open Admin CMD, cd to batch file and run it. Script will check if the TempProber.exe and ohm.dll binaries already exist, if they do, they are run, if not, they are downloaded to a folder called IT which is placed in the root of C:\.
-5. TempProber.exe returns temps of all hardware components through iteration. After which it returns an exit code used by your RMM dashboard to determine PASS or FAIL on the "check."
+4. Testing it: Move the batch file to an empty folder. Open Admin CMD, cd to batch file, then execute. Script will check if the TempProber.exe and ohm.dll binaries already exist, if they do, they are run, if not, they are downloaded to a folder called IT which is placed in the root of C:\.
+5. TempProber.exe will check for temp sensors on each major hardware component and output the results. After which it returns an exit code used by your RMM dashboard to determine PASS or FAIL on the "check." If you've done everything correctly, in command prompt you will see temperatures of each component the script detected. If you do not see this, you messed up, go back to step 1.
+6. After verifying that you understand how the script functions, go ahead and upload JUST THE BATCH FILE to your RMM dashboard script manager. Deploy it to several machines as a test before deploying to every connected agent.
 
 ### Important Notes
-* High temps are set to 190 and above, this will trigger the check to fail using exit code -3.
-* Checks fail through exit codes that are coded into TempProber.exe. However, if a temp sensor is not functioning, or TempProber simply doesn't work (rare scenario), the check will not fail. If it fails, you will be able to see the error text, so that you can rectify the problem.
-* Temperature is in farenheight for now. I have a list of known bugs and planned features below.
+* High temp alerts are set to 190F and above, this will trigger the check to fail using exit code -3.
+* Checks fail through exit codes that are coded into TempProber.exe. However, if a temp sensor is not functioning, or TempProber simply doesn't work (rare scenario), the check will not fail. In the event that the script encounters an error, it will output the details so that you can recify the problem.
+* Temperature is in fahrenheit for now. I have a list of known bugs and planned features below.
 * I'd suggest checking back here every now and then for bug fixes, as I have not incorporated any updating mechanism.
 
 ### Known Bugs
