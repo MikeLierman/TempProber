@@ -2,9 +2,9 @@
 
 A small command line application that pulls temps of various hardware components using Open Hardware Monitor library API, and outputs info along with proper exit code, for use on RMM dashboards. (Eg. Solarwinds RMM, formally MAX Focus, but should be compatible with many others.) Supports only Windows based workstations and servers. Read below for more info.  Screenshot of what this script returns when using Solarwinds: https://i.imgur.com/q7IECBI.jpg
 
-####For update information and discussion, join the Invise Labs Discord: https://discord.gg/gK7NQ7h####
+####For update information and discussion, join the Invise Labs Discord: https://discord.gg/gK7NQ7h
 
-####Follow me on Twitter: https://twitter.com/MikeLierman####
+####Follow me on Twitter: https://twitter.com/MikeLierman
 
 ### How it Works — READ FIRST BEFORE DOWNLOADING
 Most RMM solutions only allow you to upload scripts, not .exe files. The pre-made Windows based scripts for monitoring and logging hardware temperatures have never worked for me. Not once. This is a solution that works, always, without fail. It's pretty dang cool to be able to see HW temps of the CPU, GPU, and HDD on each RMM connected machine, right from your dashboard. This info is even viewable using the RMM mobile app.
